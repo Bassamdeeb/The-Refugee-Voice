@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title data-en="Contact us - The Refugee Voice" data-ar="اتصل بنا - صوت اللاجئ">Contact us - The Refugee Voice</title>
+  <link rel="website icon" type="jpg" href="The Refugee Voice logo.jpg">
+  <link rel="stylesheet" href="TRV.css">
+</head>
+<body>
+  <header class="header">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <div class="logo-circle"><img src="The Refugee Voice logo.jpg" alt="logo"></div>
+      <nav class="nav" aria-label="Primary">
+        <a href="home.html" data-en="Home" data-ar="الرئيسية">Home</a>
+        <a href="who.html" data-en="Who are we" data-ar="من نحن">Who are we</a>
+        <a href="mission.html" data-en="Our mission" data-ar="مهمتنا">Our mission</a>
+        <a href="vision.html" data-en="Our vision" data-ar="رؤيتنا">Our vision</a>
+        <a href="team.html" data-en="Our team" data-ar="فريقنا">Our team</a>
+        <a href="contact.html" data-en="Contact us" data-ar="اتصل بنا">Contact us</a>
+      </nav>
+      <div class="social-icons">
+        <a href="https://youtube.com/@therefugeevoice?si=Zocd-Tin-MhrXB-x" target="_blank">
+            <img class="youtube-icon" src="youtube icon.png">
+        </a> 
+        <a href="https://www.instagram.com/the.refugee.voice?igsh=MTJkem1xbHh4c3VsZA==" target="_blank">
+            <img class="instagram-icon" src="instagram icon.png">
+        </a> 
+        
+        <a href="https://on.soundcloud.com/TlsV9k1nKz6dkQgc73" target="_blank">
+            <img class="soundcloud-icon" src="soundcloud icon.png">
+        </a>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="lang-toggle">EN<span class="dot"></span></button>
+      <button class="hamburger"><span class="bar"></span></button>
+      <div class="mobile-nav" style="display:none">
+        <a href="home.html" data-en="Home" data-ar="الرئيسية">Home</a>
+        <a href="who.html" data-en="Who are we" data-ar="من نحن">Who are we</a>
+        <a href="mission.html" data-en="Our mission" data-ar="مهمتنا">Our mission</a>
+        <a href="vision.html" data-en="Our vision" data-ar="رؤيتنا">Our vision</a>
+        <a href="team.html" data-en="Our team" data-ar="فريقنا">Our team</a>
+        <a href="contact.html" data-en="Contact us" data-ar="اتصل بنا">Contact us</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero fade-up">
+      <div>
+        <h1 class="page-title" data-en="Contact us" data-ar="اتصل بنا">Contact us</h1>
+        <p class="page-sub" data-en="Send us a message or request — we reply within a few working days." data-ar="أرسل لنا رسالة أو طلبًا — نرد خلال أيام العمل.">Contact us</p>
+      </div>
+      <div style="max-width:280px">
+        <img src="placeholder.jpg" alt="" style="width:100%; border-radius:12px">
+      </div>
+    </section>
+
+    <section class="card fade-up">
+      <h2 data-en="Get in touch" data-ar="تواصل معنا">Get in touch</h2>
+      <form action="https://formspree.io/f/xqayaokr" method="POST">
+        <div class="form-row">
+          <div class="field">
+            <label data-en="Full name" data-ar="الاسم الكامل">Full name</label>
+            <input type="text" name="name" placeholder="" data-en="Your full name" data-ar="اسمك الكامل" />
+          </div>
+
+          <div class="field">
+            <label data-en="Email" data-ar="البريد الإلكتروني">Email</label>
+            <!-- placeholder includes sample name → this satisfies "email placeholder with names" -->
+            <input type="email" name="email"
+                   data-en="john.doe@example.com"
+                   data-ar="john.doe@example.com"
+                   data-ph-en="john.doe@example.com"
+                   data-ph-ar="john.doe@example.com"
+                   placeholder="john.doe@example.com"
+                   />
+          </div>
+        </div>
+
+        <div style="margin-top:12px">
+          <label data-en="Subject" data-ar="الموضوع">Subject</label>
+          <input type="text" name="subject" data-en="Collaboration inquiry" data-ar="استفسار تعاون" placeholder="">
+        </div>
+
+        <div style="margin-top:12px">
+          <label data-en="Message" data-ar="الرسالة">Message</label>
+          <textarea name="message" data-en="Write your message here..." data-ar="اكتب رسالتك هنا..."></textarea>
+        </div>
+
+        <div style="margin-top:14px; display:flex; gap:12px; align-items:center;">
+          <button class="cta" type="submit" data-en="Send message" data-ar="إرسال الرسالة">Send message</button>
+          <div style="color:var(--muted)" data-en="Or email us at business.therefugeevoice@gmail.com" data-ar="أو راسلنا على business.therefugeevoice@gmail.com">Or email us</div>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer fade-up">
+      <div data-en="We'd love to hear from you" data-ar="نود سماع رأيك">We'd love to hear from you</div>
+    </footer>
+  </main>
+
+  <script src="TRV.js"></script>
+</body>
+</html>
