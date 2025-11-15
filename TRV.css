@@ -286,7 +286,7 @@ body{
 
 /* contact form */
 section form {max-width: 500px;}
-.form{ display:flex; gap:12px; margin-top:12px;}
+.form{ display:flex; align-items: center; gap:12px; margin-top:12px;}
 
 input[type="text"], input[type="email"], textarea{
   padding:12px 14px; border-radius:10px; border:1px solid rgba(16,32,48,0.08);
@@ -321,8 +321,9 @@ button.cta{
 }
 
 @media (max-width:400px){
-  input{width: 50%; max-width:75px; font-size: 14px;}
+  input{width: 70%; font-size: 14px;}
 }
+
 /* Main content grows to push footer down */
 .page {
   flex: 1; /* fills remaining space */
@@ -423,6 +424,8 @@ html[dir="rtl"] .logo-circle{ order:2 }
 .mission-card:hover {
   transform: scale(1.02);
 }
+
+
 
 
 
