@@ -321,7 +321,7 @@ button.cta{
 }
 
 @media (max-width:400px){
-  input{width: 70%; font-size: 14px;}
+  input{width: 50%; max-width:75px; font-size: 14px;}
 }
 /* Main content grows to push footer down */
 .page {
@@ -423,6 +423,7 @@ html[dir="rtl"] .logo-circle{ order:2 }
 .mission-card:hover {
   transform: scale(1.02);
 }
+
 
 
 
