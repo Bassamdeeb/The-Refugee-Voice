@@ -312,13 +312,17 @@ button.cta{
   .page-hero{ flex-direction:column; align-items:flex-start }
   .team-member .bubble{ left: auto; right: 18px }
   form{ flex:1; display:flex; flex-direction:column; align-items: center; gap:6px; width: 300px;}
-  form .message{ width: 50%; margin-right: 20px;}
+  form .message{ width: 50%;}
   form .textarea{ padding: 0px; min-width:50%;}
-  form .contact-email{ font-size: 10px;}
+  form .contact-email{ font-size: 13px;}
   form label{display: block;}
+  form div{width: 50%;}
   body{ padding-top:64px }
 }
 
+@media (max-width:400px){
+  input{width: 70%; font-size: 14px;}
+}
 /* Main content grows to push footer down */
 .page {
   flex: 1; /* fills remaining space */
@@ -419,6 +423,7 @@ html[dir="rtl"] .logo-circle{ order:2 }
 .mission-card:hover {
   transform: scale(1.02);
 }
+
 
 
 
