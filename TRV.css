@@ -311,7 +311,10 @@ button.cta{
   .header{ padding:10px 12px }
   .page-hero{ flex-direction:column; align-items:flex-start }
   .team-member .bubble{ left: auto; right: 18px }
-  form{ flex:1; display:flex; flex-direction:column; gap:6px; width: 300px;}
+  form{ flex:1; display:flex; flex-direction:column; align-items: center; gap:6px; width: 300px;}
+  form .message{ width: 50%; margin-right: 20px;}
+  form .textarea{ padding: 0px; min-width:50%;}
+  form .contact-email{ font-size: 13px;}
   form label{display: block;}
   body{ padding-top:64px }
 }
@@ -416,4 +419,5 @@ html[dir="rtl"] .logo-circle{ order:2 }
 .mission-card:hover {
   transform: scale(1.02);
 }
+
 
