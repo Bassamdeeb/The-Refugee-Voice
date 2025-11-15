@@ -286,8 +286,8 @@ body{
 
 /* contact form */
 section form {max-width: 500px;}
-.form{ display:flex; gap:12px; margin-top:12px }
-.form-row .field{ flex:1; display:flex; flex-direction:column; gap:6px }
+.form{ display:flex; gap:12px; margin-top:12px;}
+
 input[type="text"], input[type="email"], textarea{
   padding:12px 14px; border-radius:10px; border:1px solid rgba(16,32,48,0.08);
   font-size:14px; outline:none;
@@ -311,6 +311,8 @@ button.cta{
   .header{ padding:10px 12px }
   .page-hero{ flex-direction:column; align-items:flex-start }
   .team-member .bubble{ left: auto; right: 18px }
+  form{ flex:1; display:flex; flex-direction:column; gap:6px; width: 300px;}
+  form label{display: block;}
   body{ padding-top:64px }
 }
 
