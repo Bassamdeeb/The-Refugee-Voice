@@ -320,8 +320,14 @@ button.cta{
   body{ padding-top:64px }
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
   input{width: 70%; font-size: 14px;}
+  form .contact-email{ font-size: 13px;}
+}
+
+@media (max-width:405px){
+  input{width: 70%; font-size: 14px;}
+  form .contact-email{ font-size: 8px;}
 }
 
 /* Main content grows to push footer down */
@@ -424,6 +430,7 @@ html[dir="rtl"] .logo-circle{ order:2 }
 .mission-card:hover {
   transform: scale(1.02);
 }
+
 
 
 
